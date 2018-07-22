@@ -55,7 +55,7 @@ Always Google your questions first! There are tons of great React Native resourc
 
 ### Common Components
 
-[Tooltip](https://github.com/CompanyCam/react-native-walkthrough-tooltip
+[Tooltip](https://github.com/CompanyCam/react-native-walkthrough-tooltip)
 
 [Maps](https://github.com/react-community/react-native-maps) 
 
