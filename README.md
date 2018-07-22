@@ -20,18 +20,18 @@ The layout of the code is:
 
 .  
 +-- src: this is where the main code is   
-|   +-- components: main sections of code  
-|   |   +-- common  
-|   |   |   +-- header.js: header code  
-|   |   +-- navigation  
-|   |   |   +-- home-stack-navigation.js   
-|   |   +-- screens:  
-|   |   |   +-- home-screen.js: the Home screen  
-|   |   |   +-- show-details-screen.js: detailed Movie page  
-|   +-- constants: keep constants referred to throughout code  
-|   |   +-- styles.js: various style constants, like colors   
-|   +-- data: application data  
-|   |   +-- data.js: hard-coded Netflix movie data  
+|    +-- components: main sections of code  
+|    |    +-- common  
+|    |    |    +-- header.js: header code  
+|    |    +-- navigation  
+|    |    |    +-- home-stack-navigation.js   
+|    |    +-- screens:  
+|    |    |    +-- home-screen.js: the Home screen  
+|    |    |    +-- show-details-screen.js: detailed Movie page  
+|    +-- constants: keep constants referred to throughout code  
+|    |    +-- styles.js: various style constants, like colors   
+|    +-- data: application data  
+|    |    +-- data.js: hard-coded Netflix movie data  
 +-- assets : image assets  
 +-- App.js: main application file  
 +-- app.json: configuration information  
