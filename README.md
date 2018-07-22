@@ -18,24 +18,24 @@ Then, you should be able to scan the QR code or just open the app using the Expo
 ## Understanding the code
 The layout of the code is:
 
-.
-+-- src: this is where the main code is
-|	+-- components: main sections of code
-|	|	+-- common
-|	|	|	+-- header.js: header code
-|	|	+-- navigation
-|	|	|	+-- home-stack-navigation.js
-|	|	+-- screens:
-|	|	|	+-- home-screen.js: the Home screen
-|	|	|	+-- show-details-screen.js: detailed Movie page
-|	+-- constants: keep constants referred to throughout code
-|	|	+-- styles.js: various style constants, like colors
-|	+-- data: application data
-|	|	+-- data.js: hard-coded Netflix movie data
-+-- assets : image assets
-+-- App.js: main application file
-+-- app.json: configuration information
-+-- package.json: npm info
+.  
++-- src: this is where the main code is   
+|	+-- components: main sections of code  
+|	|	+-- common  
+|	|	|	+-- header.js: header code  
+|	|	+-- navigation  
+|	|	|	+-- home-stack-navigation.js   
+|	|	+-- screens:  
+|	|	|	+-- home-screen.js: the Home screen  
+|	|	|	+-- show-details-screen.js: detailed Movie page  
+|	+-- constants: keep constants referred to throughout code  
+|	|	+-- styles.js: various style constants, like colors   
+|	+-- data: application data  
+|	|	+-- data.js: hard-coded Netflix movie data  
++-- assets : image assets  
++-- App.js: main application file  
++-- app.json: configuration information  
++-- package.json: npm info  
 
 A good place to start may be looking at `home-screen.js` and `show-details-screen.js`.
 Then, see if you can tell how the hamburger menu, or drawer menu, works!
