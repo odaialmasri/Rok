@@ -2,52 +2,52 @@ export const data = {
   "quiz" : {
     "quiz1" : {
       "question1" : {
-        "correctoption" : "option2",
+        "correctoption" : "2",
         "options" : {
-          "option1" : "Turkey",
-          "option2" : "Australia",
-          "option3" : "Cuba",
-          "option4" : "Algeria"
+          "1" : "Turkey",
+          "2" : "Australia",
+          "3" : "Cuba",
+          "4" : "Algeria"
         },
         "question" : "Canberra is the capital of ____ "
       },
       "question2" : {
-        "correctoption" : "option2",
+        "correctoption" : "6",
         "options" : {
-          "option1" : "Argentina",
-          "option2" : "Thailand",
-          "option3" : "India",
-          "option4" : "United Kingdom"
+          "5" : "Argentina",
+          "6" : "Thailand",
+          "7" : "India",
+          "8" : "United Kingdom"
         },
         "question" : "Bangkok is the capital of ____ "
       },
       "question3" : {
-        "correctoption" : "option2",
+        "correctoption" : "10",
         "options" : {
-          "option1" : "Italy",
-          "option2" : "France",
-          "option3" : "Spain",
-          "option4" : "Greece"
+          "9" : "Italy",
+          "10" : "France",
+          "11" : "Spain",
+          "12" : "Greece"
         },
         "question" : "Paris is the capital of ____"
       },
       "question4" : {
-        "correctoption" : "option3",
+        "correctoption" : "15",
         "options" : {
-          "option1" : "Angola",
-          "option2" : "Bahamas",
-          "option3" : "Albania",
-          "option4" : "Malta"
+          "13" : "Angola",
+          "14" : "Bahamas",
+          "15" : "Albania",
+          "16" : "Malta"
         },
         "question" : "Tirana is the capital of ____"
       },
       "question5" : {
-        "correctoption" : "option4",
+        "correctoption" : "20",
         "options" : {
-          "option1" : "Cameroon",
-          "option2" : "Afghanistan",
-          "option3" : "Burkina Faso",
-          "option4" : "Pakistan"
+          "17" : "Cameroon",
+          "18" : "Afghanistan",
+          "19" : "Burkina Faso",
+          "20" : "Pakistan"
         },
         "question" : "Islamabad is the capital of ____"
       }

@@ -14,7 +14,7 @@ export const quizStyles = StyleSheet.create({
   oval: {
     width: width * 90/100,
     borderRadius: 20,
-    backgroundColor: 'green'
+    backgroundColor: 'black'
   },
   container: {
     flex: 1,
@@ -23,7 +23,7 @@ export const quizStyles = StyleSheet.create({
   welcome: {
     fontSize: 20,
     margin: 15,
-    color: "white"
+    color: "gray"
   },
   instructions: {
     textAlign: 'center',
@@ -34,7 +34,7 @@ export const quizStyles = StyleSheet.create({
 
 export const playQuizStyles = StyleSheet.create({
   score: {
-    color: "white",
+    color: "gray",
     fontSize: 20,
     fontStyle: 'italic'
   },
@@ -44,7 +44,7 @@ export const playQuizStyles = StyleSheet.create({
     width: scoreCircleSize,
     height: scoreCircleSize,
     borderRadius: scoreCircleSize/2,
-    backgroundColor: "green"
+    backgroundColor: "black"
   },
   innerContainer: {
     flex: 1,
@@ -55,21 +55,27 @@ export const playQuizStyles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: 'white',
   },
   toolbar:{
-    backgroundColor:'#81c04d',
+    backgroundColor:'#A7312F',
+    width:500,
     paddingTop:30,
-    paddingBottom:10,
+    paddingBottom:60,
     flexDirection:'row'
   },
   toolbarButton:{
-    width: 55,
+    width: 200,
+    marginBottom:10,
     color:'#fff',
     textAlign:'center'
   },
   toolbarTitle:{
     color:'#fff',
+    fontSize:25,
+    paddingTop:40,
+
+
     textAlign:'center',
     fontWeight:'bold',
     flex:1

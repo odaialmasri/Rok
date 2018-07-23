@@ -68,10 +68,12 @@ export default class Playquiz extends Component {
       <View style={{flex:1}}>
         <StatusBar barStyle="light-content"/>
         <View style={playQuizStyles.toolbar}>
+        
           <TouchableOpacity onPress={() => this._onPressBack() }>
             <Text style={playQuizStyles.toolbarButton}>Back</Text>
           </TouchableOpacity>
-          <Text style={playQuizStyles.toolbarTitle}></Text>
+        
+          <Text style={playQuizStyles.toolbarTitle}>Test yourself</Text>
           <Text style={playQuizStyles.toolbarButton}></Text>
         </View>
         { this.state.quizFinish ?

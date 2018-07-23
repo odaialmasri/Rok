@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {
   AppRegistry,
+  Image,
   Text,
   View,
   Button,
@@ -11,6 +12,8 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import Animbutton from './animbutton'
 import { quizStyles } from '../styles/general';
 import { data } from '../data/quiz';
+
+const firstimage = require('../../assets/images/th.jpeg');
 
 let arrnew = [];
 
@@ -47,7 +50,7 @@ export default class Quiz extends Component {
   }
 
   _answer(status,ans){
-    if(status == true){
+    if(status == false){
       const count = this.state.countCheck + 1;
       this.setState({ countCheck: count });
       if(ans == this.state.correctoption ){
@@ -68,13 +71,23 @@ export default class Quiz extends Component {
     const options = Object.keys(currentOptions).map( function(k) {
         return (
           <View key={k} style={{margin:10}}>
-            <Animbutton onColor={"green"} effect={"tada"} _onPress={(status) => _this._answer(status,k)} text={currentOptions[k]} />
+            <Animbutton onColor={"black"} effect={"tada"} _onPress={(status) => _this._answer(status,k)} text={currentOptions[k]} />
           </View>
         )
     });
 
+
     return (
-      <ScrollView style={{backgroundColor: '#F5FCFF',paddingTop: 10}}>
+    <Image
+      style={{
+        flex: 1,
+        width:500,
+
+      }}
+      source={firstimage}
+    >   
+
+      <ScrollView style={{paddingTop: 10}}>
         <View style={quizStyles.container}>
           <View style={{ flex: 1, flexDirection: 'column', justifyContent: "space-between", alignItems: 'center' }}>
             <View style={quizStyles.oval} >
@@ -87,7 +100,7 @@ export default class Quiz extends Component {
             </View>
             <View style={{flexDirection:"row"}}>
               <TouchableOpacity onPress={() => this.next()} >
-                <View style={{paddingTop: 5,paddingBottom: 5, paddingRight: 20, paddingLeft: 20, borderRadius:10, backgroundColor:"green"}}>
+                <View style={{paddingTop: 5,paddingBottom: 5, paddingRight: 20, paddingLeft: 20, borderRadius:10, backgroundColor:"black"}}>
                   <Icon name="md-arrow-round-forward" size={30} color="white" />
                 </View>
               </TouchableOpacity >
@@ -95,6 +108,7 @@ export default class Quiz extends Component {
           </View>
         </View>
       </ScrollView>
+      </Image>
       );
     }
   }
