@@ -4,10 +4,8 @@ import HomeStackNavigator from 'components/navigation/home-stack-navigator';
 import { COLORS } from 'constants/styles';
 import styled from 'styled-components/native';
 import { StyleSheet, Text, View, TextInput, ScrollView, StatusBar, Button, FlatList } from 'react-native';
-import Playquiz from 'components/playquiz';
+import Playquiz from 'components/screens/playquiz';
 import { mainStyles } from 'styles/general';
-
-
 
 const AppContainer = styled.View`
   flex: 1;

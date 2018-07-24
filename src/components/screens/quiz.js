@@ -9,11 +9,11 @@ import {
   TouchableOpacity
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import Animbutton from './animbutton'
-import { quizStyles } from '../styles/general';
-import { data } from '../data/quiz';
+import Animbutton from 'components/common/animbutton'
+import { quizStyles } from 'styles/general';
+import { data } from 'data/quiz';
 
-const firstimage = require('../../assets/images/4.jpeg');
+const firstimage = require('../../../assets/images/4.jpeg');
 let arrnew = [];
 
 export default class Quiz extends Component {
