@@ -8,6 +8,8 @@ import LevelsScreen from 'components/screens/levels';
 import pythonIntro from 'components/screens/python-intro';
 import HtmlCssIntro from 'components/screens/html-css-intro';
 import JsIntro from 'components/screens/js-intro';
+import Playquiz from 'components/screens/playquiz';
+
 
 const HomeStackNavigator = createStackNavigator(
 {
@@ -15,10 +17,8 @@ const HomeStackNavigator = createStackNavigator(
 	ShowDetails: {screen: ShowDetailsScreen},
 	browse:{screen:pythonIntro},
 	HtmlCssScreen:{screen:HtmlCssIntro},
-	JsScreen:{screen:JsIntro}
-
-
-
+	JsScreen:{screen:JsIntro},
+	Playquiz:{screen:Playquiz},
 },
 {
 	initialRouteName: 'Main',

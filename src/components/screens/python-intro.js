@@ -26,7 +26,6 @@ import styled from 'styled-components/native';
  
  
  `;
-  <HeaderContainer2>
 
 class pythonIntro extends Component {
   render() {
@@ -73,7 +72,7 @@ class pythonIntro extends Component {
     );
   }
 }
-</HeaderContainer2>
+
 const styles = StyleSheet.create({
   container:{
     paddingTop:10,
@@ -91,13 +90,8 @@ const styles = StyleSheet.create({
     fontSize: 24,
   },
   level1:{
-    color:"#3DB3E5",
+    color:"white",
   }
-
-
-
-
-
 
 
 });

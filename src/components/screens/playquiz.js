@@ -8,10 +8,10 @@ import {
   Text
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
-const simage = require('../../assets/images/logo.png');
+const simage = require('../../../assets/images/logo.png');
 
-import Quiz from './quiz';
-import { playQuizStyles } from '../styles/general';
+import Quiz from 'components/screens/quiz';
+import { playQuizStyles } from 'styles/general';
 
 export default class Playquiz extends Component {
   constructor(props) {
