@@ -23,10 +23,10 @@ import styled from 'styled-components/native';
  display:flex;
  flex-direction:row;
  background-color:${COLORS.BLUE.LIGHT_BLUE};
+ width:200;
  
  
  `;
-  <HeaderContainer2>
 
 class pythonIntro extends Component {
   render() {
@@ -73,7 +73,7 @@ class pythonIntro extends Component {
     );
   }
 }
-</HeaderContainer2>
+
 const styles = StyleSheet.create({
   container:{
     paddingTop:10,
@@ -92,7 +92,8 @@ const styles = StyleSheet.create({
   },
   level1:{
     color:"#3DB3E5",
-  }
+    paddingTop:10,
+  },
 
 
 
