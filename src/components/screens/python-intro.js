@@ -96,11 +96,6 @@ const styles = StyleSheet.create({
   },
 
 
-
-
-
-
-
 });
 
 
