@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import {
+  AppRegistry,
+  Image,
   StatusBar,
   TouchableOpacity,
   View,
   Text
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
+const simage = require('../../assets/images/logo.png');
 
 import Quiz from './quiz';
 import { playQuizStyles } from '../styles/general';
@@ -68,10 +71,21 @@ export default class Playquiz extends Component {
       <View style={{flex:1}}>
         <StatusBar barStyle="light-content"/>
         <View style={playQuizStyles.toolbar}>
+
         
           <TouchableOpacity onPress={() => this._onPressBack() }>
             <Text style={playQuizStyles.toolbarButton}>Back</Text>
           </TouchableOpacity>
+<Image
+               style={{
+  
+        width:100,
+        height:96,
+
+
+      }}
+      source={simage}
+    />
         
           <Text style={playQuizStyles.toolbarTitle}>Test yourself</Text>
           <Text style={playQuizStyles.toolbarButton}></Text>

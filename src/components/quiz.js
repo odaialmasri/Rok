@@ -13,8 +13,7 @@ import Animbutton from './animbutton'
 import { quizStyles } from '../styles/general';
 import { data } from '../data/quiz';
 
-const firstimage = require('../../assets/images/th.jpeg');
-
+const firstimage = require('../../assets/images/4.jpeg');
 let arrnew = [];
 
 export default class Quiz extends Component {
@@ -71,21 +70,13 @@ export default class Quiz extends Component {
     const options = Object.keys(currentOptions).map( function(k) {
         return (
           <View key={k} style={{margin:10}}>
-            <Animbutton onColor={"black"} effect={"tada"} _onPress={(status) => _this._answer(status,k)} text={currentOptions[k]} />
+            <Animbutton onColor={"#3DB3E5"} effect={"tada"} _onPress={(status) => _this._answer(status,k)} text={currentOptions[k]} />
           </View>
         )
     });
 
 
     return (
-    <Image
-      style={{
-        flex: 1,
-        width:500,
-
-      }}
-      source={firstimage}
-    >   
 
       <ScrollView style={{paddingTop: 10}}>
         <View style={quizStyles.container}>
@@ -100,7 +91,7 @@ export default class Quiz extends Component {
             </View>
             <View style={{flexDirection:"row"}}>
               <TouchableOpacity onPress={() => this.next()} >
-                <View style={{paddingTop: 5,paddingBottom: 5, paddingRight: 20, paddingLeft: 20, borderRadius:10, backgroundColor:"black"}}>
+                <View style={{paddingTop: 5,paddingBottom: 5, paddingRight: 20, paddingLeft: 20, borderRadius:10, backgroundColor:"#3DB3E5"}}>
                   <Icon name="md-arrow-round-forward" size={30} color="white" />
                 </View>
               </TouchableOpacity >
@@ -108,7 +99,6 @@ export default class Quiz extends Component {
           </View>
         </View>
       </ScrollView>
-      </Image>
       );
     }
   }
