@@ -81,6 +81,7 @@ export default class Playquiz extends Component {
   
         width:100,
         height:96,
+  
 
 
       }}
