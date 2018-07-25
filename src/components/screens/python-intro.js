@@ -23,8 +23,7 @@ import styled from 'styled-components/native';
  display:flex;
  flex-direction:row;
  background-color:${COLORS.BLUE.LIGHT_BLUE};
- 
- 
+ width:200;
  `;
 
 class pythonIntro extends Component {
@@ -90,8 +89,14 @@ const styles = StyleSheet.create({
     fontSize: 24,
   },
   level1:{
+<<<<<<< HEAD
     color:"white",
   }
+=======
+    color:"#3DB3E5",
+    paddingTop:10,
+  },
+>>>>>>> 06fe6a10244e3bd472b977d08100092fce826a3b
 
 
 });

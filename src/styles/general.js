@@ -65,21 +65,17 @@ export const playQuizStyles = StyleSheet.create({
     flexDirection:'row'
   },
   toolbarButton:{
-    width:70,
+    width: 200,
     marginBottom:0,
     color:'#fff',
     textAlign:'center'
   },
   toolbarTitle:{
-    color:'#fff',                         
+    color:'#fff',
     fontSize:25,
     paddingTop:0,
-    marginRight:220,
-
-
-
     textAlign:'center',
     fontWeight:'bold',
-    flex:1,
+    flex:1
   }
 });

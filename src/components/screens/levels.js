@@ -12,8 +12,8 @@ import styled from 'styled-components/native';
  const HeaderContainer = styled.View`
  display:flex;
  flex-direction:row;
- background-color:${COLORS.BLACK.DARK_BLACK};
- width:350;
+ background-color:${COLORS.BLUE.LIGHT_BLUE};
+ width:400;
  height:100;
 `;
  const HeaderContainer1 = styled.View`
@@ -84,12 +84,10 @@ const styles = StyleSheet.create({
     color:"white",
   },
   text1:{
-    paddingLeft:130,
+    paddingLeft:160,
     fontSize:30,
     paddingTop:35,
-    color:"#3DB3E5",
-
-
+    color:"white",
   },
 
 
