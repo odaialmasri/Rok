@@ -74,8 +74,6 @@ export const playQuizStyles = StyleSheet.create({
     color:'#fff',
     fontSize:25,
     paddingTop:0,
-
-
     textAlign:'center',
     fontWeight:'bold',
     flex:1

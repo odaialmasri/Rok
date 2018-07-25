@@ -88,8 +88,6 @@ const styles = StyleSheet.create({
     fontSize:30,
     paddingTop:35,
     color:"white",
-
-
   },
 
 
