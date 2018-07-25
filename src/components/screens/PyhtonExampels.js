@@ -28,7 +28,7 @@ import styled from 'styled-components/native';
  
  `;
 
-class pythonIntro extends Component {
+class PyhtonExampels extends Component {
   render() {
     return (
     <View style={StyleSheet.absoluteFill}>
@@ -53,7 +53,7 @@ class pythonIntro extends Component {
 
               <TouchableOpacity>
 
-        <Text style={styles.odai}>* Python Introduction :-</Text>
+        <Text style={styles.odai}>* Python Examples :-</Text>
         <Text style={styles.textleft}>Welcome to Google's Python online tutorial.
          It is based on the introductory Python course offered internally.
           Originally created during the Python 2.4 days, we've tried to keep the content universal and exercises relevant, even for newer releases.
@@ -66,13 +66,7 @@ We strongly recommend you follow along with the companion videos throughout the 
   What's this "interpreter" we mention? You'll find out in the next section!</Text>
 
           </TouchableOpacity>
-                  <Button
-          onPress={() => {
-            this.props.navigation.navigate('PyhtonBasics')
-          }} 
-          title="Go to basic"
-          color="black"
-          />
+
       </ScrollView>
       </View>
     );
@@ -117,6 +111,6 @@ textleft:{
 });
 
 
-export default pythonIntro; 
+export default PyhtonExampels; 
 
 
